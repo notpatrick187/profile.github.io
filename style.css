@@ -1,0 +1,61 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at top, #1a1a1a, #000000);
+  color: #f2f2f2;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ff3b3b;
+  text-shadow: 0 0 15px rgba(255, 59, 59, 0.6);
+}
+
+.info {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 15px 25px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+
+a {
+  display: block;
+  width: 320px;
+  text-align: center;
+  margin: 12px 0;
+  padding: 14px 20px;
+  text-decoration: none;
+  color: #fff;
+  background: linear-gradient(135deg, #2b2b2b, #111);
+  border-radius: 10px;
+  transition: 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+a:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #ff3b3b, #7a0000);
+  box-shadow: 0 0 20px rgba(255, 59, 59, 0.4);
+}
+
+.ideas, .xp, .bloodsgang, .team {
+  position: relative;
+}
